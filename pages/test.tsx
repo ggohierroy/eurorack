@@ -1,5 +1,12 @@
+import Cheese from '../components/module'
+
 function About() {
-    return <div>About</div>
-  }
+  return (
+    <div>
+      <Cheese></Cheese>
+      <div>About</div>
+    </div>
+  )
+}
   
 export default About  
