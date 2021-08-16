@@ -1,9 +1,9 @@
-import Cheese from '../components/module'
+import Oscillator from '../components/oscillator'
 
 function About() {
   return (
     <div>
-      <Cheese></Cheese>
+      <Oscillator></Oscillator>
       <div>About</div>
     </div>
   )
